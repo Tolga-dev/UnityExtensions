@@ -14,7 +14,7 @@ public class Tester : MonoBehaviour {
 
    private void OnEventTriggered() {
       Debug.Log("Event triggered!");
-   }
+   }  
 
    private void OnFirstEvent() {
       Debug.Log("First event fired!");

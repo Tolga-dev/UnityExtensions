@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace Extensions
 {
@@ -25,5 +26,4 @@ namespace Extensions
          clip.AddEvent(animationEvent);
       }
    }
-
 }

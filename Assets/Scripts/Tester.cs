@@ -1,15 +1,18 @@
-﻿using Extensions;
+﻿using System;
+using Extensions;
 using UnityEngine ;
 
 
 public class Tester : MonoBehaviour {
 
    [SerializeField] private AnimationClip clip;
-
+   
    private void Start() {
       clip.AddAnimationEvent(1.3f, "OnEventTriggered");
       clip.AddAnimationEvent(1.5f, "OnFirstEvent");
       clip.AddAnimationEvent(3.0f, "OnSecondEvent");
+
+      var addedComponent = gameObject.AddComponentIfMissing<Rigidbody>();
    }
 
    private void OnEventTriggered() {

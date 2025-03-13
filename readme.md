@@ -1,8 +1,7 @@
 # 🎮 Unity Extensions Library
-
+---
 A collection of useful **extension methods** for Unity's built-in classes, such as `AnimationClip`, `GameObject`, and `Animator`.
 Basic Example for developer!
----
 
 ## 🚀 Features
 
